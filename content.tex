@@ -1,0 +1,103 @@
+\section{Introduction}
+This Access Control Policy defines the principles, procedures, and guidelines for granting, monitoring, and revoking access to information systems, data, and resources at Vera C. Rubin Observatory. It ensures compliance with NIST 800-171 standards, which protect Controlled Unclassified Information (CUI).
+
+\section{Policy Statement}
+\subsection*{2.1. Access Control Framework (AC-2)}
+\begin{itemize}
+    \item \textbf{Justification:} AC-2 requires an access control framework. Our policy follows this requirement by providing a framework rooted in least privilege and need-to-know principles.
+    \item \textbf{Fulfillment:} Our access control framework ensures that access rights are assigned based on job roles and responsibilities, adhering to the least privilege principle. This limits users' access to only what is necessary for their duties.
+\end{itemize}
+
+\subsection{User Authentication (IA-2)}
+\begin{itemize}
+    \item \textbf{Justification:} IA-2 mandates user authentication. Our policy aligns with this requirement by enforcing multi-factor authentication (MFA) and strong password policies.
+    \item \textbf{Fulfillment:} 2FA is required for all users accessing our systems. Strong password policies ensure that user credentials meet security standards.
+\end{itemize}
+
+\subsection{Access Channels (SC-7)}
+\begin{itemize}
+    \item \textbf{Justification:} SC-7 requires securing remote access. 
+    \item \textbf{Fulfillment:} Remote access to our systems is only permitted through secure VPN connections. 
+\end{itemize}
+
+\subsection{Role-Based Access Control (AC-3)}
+\begin{itemize}
+    \item \textbf{Justification:} AC-3 emphasizes role-based access control (RBAC). 
+    \item \textbf{Fulfillment:} Access to resources is granted based on job roles and responsibilities, aligning with RBAC principles. Users are assigned roles that define their access permissions.
+\end{itemize}
+
+\subsection{Access Request Process (AC-5)}
+\begin{itemize}
+    \item \textbf{Justification:} AC-5 stipulates the need for access requests. 
+    \item \textbf{Fulfillment:} Access to our systems and resources is obtained through a formal request process. 
+\end{itemize}
+
+\textbf{Access Request Procedures:}
+\begin{enumerate}[label=\alph*.]
+    \item Employees or authorized personnel request access by opening an IHS ticket specifying the desired access
+    \item The ticket includes the requester's name, department, job title, specific systems or resources required, the reason for access, and access duration.
+    \item The IT department reviews and validates access requests, ensuring alignment with job roles, responsibilities, and the principle of least privilege.
+    \item IT along with the owner of the system approve access and is communicated to the requester via the IHS ticket.
+    \item Access is regularly reviewed and audited to maintain compliance.
+\end{enumerate}
+
+\subsection{Access Revocation (AC-7)}
+\begin{itemize}
+    \item \textbf{Justification:} AC-7 mandates immediate access revocation upon personnel changes. 
+    \item \textbf{Fulfillment:} Access to our systems is immediately revoked upon notification of personnel changes. 
+\end{itemize}
+
+\textbf{Access Revocation Procedures:}
+\begin{enumerate}[label=\alph*.]
+    \item HR notifies the IT department by using the offboarding form.
+    \item IT revokes the access based on the need date in the offboarding form.
+\end{enumerate}
+
+\subsection{Monitoring and Logging (AC-19)}
+\begin{itemize}
+    \item \textbf{Justification:} AC-19 requires monitoring and logging. 
+    \item \textbf{Fulfillment:} IT deploys a Security Information and Event Management (SIEM) system to monitor access and system activities. Logs are reviewed for anomalies and security incidents. 
+\end{itemize}
+
+\textbf{Monitoring and Logging Procedures:}
+\begin{enumerate}[label=\alph*.]
+    \item The IT department deploys a Security Information and Event Management (SIEM) system to monitor access and system activities.
+    \item Logs are reviewed [frequency] for anomalies and security incidents.
+    \item Security incidents and unauthorized access attempts are logged, investigated, and reported promptly.
+\end{enumerate}
+
+\section{Responsibilities}
+
+\subsection{Responsibilities (AC-2, AC-5)}
+\begin{itemize}
+    \item \textbf{Justification:} AC-2 and AC-5 emphasize user responsibilities. Our policy mandates employees and users protect their authentication credentials and follow access request procedures.
+    \item \textbf{Fulfillment:} Users are responsible for safeguarding authentication credentials, including usernames, passwords, and authentication tokens. They are also required to promptly report any suspicious activities or security incidents to IT 
+\end{itemize}
+
+\subsubsection{\textbf{User Responsibilities:}}
+\begin{enumerate}[label=\alph*.]
+    \item Safeguard authentication credentials, including usernames, passwords, and authentication tokens.
+    \item Promptly report any suspicious activities or security incidents to IT.
+    \item Communicate to IT if the role based access needs modifications (more or less)
+\end{enumerate}
+
+\subsubsection{\textbf{IT Responsibilities:}}
+\begin{enumerate}[label=\alph*.]
+    \item Manage and maintain the access control framework.
+    \item Conduct regular access reviews and audits.
+    \item Implement and maintain the system for real-time monitoring.
+\end{enumerate}
+
+\section{Compliance and Enforcement}
+
+\subsection{Compliance (AC-1, AC-2)}
+\begin{itemize}
+    \item \textbf{Justification:} AC-1 and AC-2 require policy compliance. Non-compliance may result in disciplinary actions, as outlined in our policy.
+    \item \textbf{Fulfillment:} Periodic compliance audits will be conducted . Violations will be reported to upper management.
+\end{itemize}
+
+\section{Review and Revision}
+
+\begin{itemize}
+    \item \textbf{Justification:} NIST 800-171 doesn't specify review and revision explicitly. However, regular policy reviews are essential to align with changing threats and organizational needs. Our policy aligns with this principle.
+\end{itemize}
