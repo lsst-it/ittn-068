@@ -1,5 +1,5 @@
-\documentclass[PMO,authoryear,toc]{lsstdoc}
-\input{meta}
+\documentclass[PMO,authoryear,lsstdraft,toc]{lsstdoc}
+
 
 % Package imports go here.
 
@@ -15,13 +15,13 @@
 % \setDocSubtitle{A subtitle}
 
 \author{%
-Joshua Hoblitt
+Cristian Silva, Joshua Hoblitt
 }
 
 \setDocRef{ITTN-068}
 \setDocUpstreamLocation{\url{https://github.com/lsst-it/ittn-068}}
 
-\date{\vcsDate}
+\date{\today}
 
 % Optional: name of the document's curator
 % \setDocCurator{The Curator of this Document}
@@ -35,7 +35,8 @@ Access control policies
 % Fields: VERSION, DATE, DESCRIPTION, OWNER NAME.
 % See LPM-51 for version number policy.
 \setDocChangeRecord{%
-  \addtohist{1}{YYYY-MM-DD}{Unreleased.}{Joshua Hoblitt}
+  \addtohist{1}{2023-01-20}{Unreleased.}{Joshua Hoblitt}
+  \addtohist{1}{2023-10-03}{Unreleased.}{Cristian Silva}
 }
 
 
@@ -43,6 +44,8 @@ Access control policies
 
 % Create the title page.
 \maketitle
+
+\include{content}
 % Frequently for a technote we do not want a title page  uncomment this to remove the title page and changelog.
 % use \mkshorttitle to remove the extra pages
 
